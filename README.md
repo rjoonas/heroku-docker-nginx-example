@@ -2,7 +2,7 @@
 
 Barebones example of deploying
 [the official nginx Docker image](https://github.com/docker-library/docs/tree/master/nginx)
-to Heroku. Serves HTTP 204 (No Content) for all requests.
+to Heroku. Serves an example html file at the root directory.
 
 ## Try it now!
 
