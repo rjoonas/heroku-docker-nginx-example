@@ -1,4 +1,8 @@
 server {
   listen $PORT default_server;
-  return 204;
+
+  location / {
+    root   /usr/share/nginx/html;
+    index  index.html index.htm;
+  }
 }
